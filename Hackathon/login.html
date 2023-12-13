@@ -1,0 +1,84 @@
+<!Doctype html>
+<html lang="en">
+    <title> Login </title>
+    <body>
+        <style>
+            form,h1{
+                text-align: center;
+            }
+            html, body {
+                height: 50%;
+                margin: 0;
+                padding: 0;
+                background-color: yellow;
+            }
+            
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 50%;
+            }
+            
+            .loginBtn {
+                width: 100%;
+                padding: 10px;
+                background-color: #4caf50;
+                color: #fff;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+            
+            .loginBtn:hover {
+                background-color: #45a049;
+            }
+            
+            .login-form {
+                height: 45%;
+                width: 15%;
+                background: orange;
+                padding: 100px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            
+            .login-form h1 {
+                text-align: center;
+                color: #333;
+            }
+            
+            .textBoxdiv {
+                margin-bottom: 15px;
+            }
+            
+            .textBoxdiv input {
+                width: 100%;
+                padding: 10px;
+                box-sizing: border-box;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+            
+        </style>
+        <form method="post" action="/">
+            <h1> Login </h1>
+            <div class="container">
+            <div class="login-form">
+            <div class="textBoxdiv">
+                <input type="text" name="email" placeholder="email">
+            </div>
+            <div class="textBoxdiv">
+                <input type="password" name="password" placeholder="password">
+            </div>
+            <input type="submit" value="login" class="loginBtn">
+            <div class="signup">
+                Don't have an account ?
+                </br>
+                <a href="C:\Users\admin\Desktop\hackathon\signup.html" class="register-btn">Sign Up!</a>
+            </div> 
+        </div>
+    </div> 
+        </form>      
+    </body>
+</html> 

@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+p,sub,cite{
+    color: #fff;
+    padding: 20px;
+}
+span{
+    font-weight: 600;
+}
+
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="number"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.graph-container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+::-webkit-scrollbar{
+    color: #fff;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colllatz conjecture</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="../static/index.css">
+</head>
+<body>
+    <h1>Collatz Conjecture</h1>
+    <cite>"Mathematics is not yet ready for such problems" -Paul Erdos</cite>
+    <p>
+        The <span>Collatz conjecture</span> is one of the <b> infamous</b> problems in mathematics. The conjecture asks whether repeating two simple arithmetic operations will eventually transform every positive integer into 1. 
+        <br>
+        It concerns sequences of integers in which each term is obtained from the previous term as follows: if the previous term is even, the next term is one half of the previous term. If the previous term is odd, the next term is 3 times the previous term plus 1. The conjecture is that these sequences always reach 1, no matter which positive integer is chosen to start the sequence. The conjecture has been shown to hold for all positive integers up to 2.95X10^20, but no general proof has been found.
+    </p>
+    <sub> Here you can visualise the path of the numbers that follows the conjecture.</sub>       
+    <form action="/" method="post">
+        <input type="number" placeholder="number" name="value">
+        <button type="submit">SUBMIT</button>
+    </form>
+    <br>
+    <br>
+    {{ graph | safe }}
+</body>
+
+</html>
